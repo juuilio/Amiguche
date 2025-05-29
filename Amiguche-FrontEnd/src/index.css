@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "MontserratAlternates";
+  src: url("../public/fonts/MontserratAlternates-SemiBold.ttf");
+}
+@font-face {
+  font-family: "MontserratAlternates-Bold";
+  src: url("../public/fonts/MontserratAlternates-Bold.ttf");
+}
+
+*{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #FFF9EB;
+}
+
+
+
+.btn_default{
+  color: #8C5522;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #8C5522 solid 2px;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn_default:hover{
+  background-color: #492b0f;
+  color: #FFF9EB;
+}
+
+

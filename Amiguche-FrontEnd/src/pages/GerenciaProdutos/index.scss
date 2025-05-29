@@ -1,0 +1,118 @@
+.gerencia-produtos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  background-color: #fff9eb;
+  min-height: 100vh;
+  margin-bottom: 2em;
+
+  .titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 91vw;
+    height: 10vh;
+    min-height: 10vh;
+
+    div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+      height: 100%;
+
+      a {
+        text-decoration: none;
+        color: #452508;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: "Poppins", sans-serif;
+      }
+
+      .btn-cadastro {
+        padding: 6px 12px;
+        margin: 0px 4px;
+        border: none;
+        border-radius: 6px;
+        font-weight: 500;
+        cursor: pointer;
+        background-color: #64af42;
+        color: white;
+      }
+
+    }
+
+
+  }
+
+  .panel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 0 20px;
+    // margin-bottom: 10em;
+  }
+
+  .tabela-container {
+    width: 100%;
+    max-width: 1100px;
+    overflow-x: auto;
+    background-color: #fff;
+    box-shadow: 0 0px 18px rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    padding: 20px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 1rem;
+
+    th {
+      background-color: #f8f8f8;
+      font-weight: bold;
+      padding: 12px;
+      color: #333;
+    }
+
+    td {
+      padding: 12px;
+      border-bottom: 1px solid #eee;
+
+      img{
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius:10px;
+      }
+    }
+
+    tr:hover {
+      background-color: #f9f9f9;
+    }
+  }
+
+  .btn-editar,
+  .btn-excluir {
+    padding: 6px 12px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+  .btn-editar {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .btn-excluir {
+    background-color: #dc3545;
+    color: white;
+  }
+}

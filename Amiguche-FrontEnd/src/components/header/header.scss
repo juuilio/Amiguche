@@ -1,0 +1,89 @@
+header {
+  width: 100%;
+  padding: 28px 8%;
+  position: sticky;
+  top: 0;
+  background-color: #fff9eb;
+  z-index: 3;
+
+  #navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #cart-icon {
+    font-size: 25px;
+    color: rgb(83, 46, 21);
+    cursor: pointer;
+  }
+
+  #nav_list {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+  }
+
+  #nav_list2 {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+  }
+
+  .item_login {
+    cursor: pointer;
+    text-decoration: none;
+    color: #532e15;
+    font-weight: 600;
+  }
+
+  .item_logout {
+    color: #532e15;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #532e15;
+      transform: scale(1.1);
+    }
+  }
+
+  .nav_item {
+    position: relative;
+
+    a {
+      text-decoration: none;
+      color: rgb(83, 46, 21);
+      font-weight: 600;
+      padding: 5px 0;
+      display: inline-block;
+
+      &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        height: 3px;
+        width: 0%;
+        background-color: rgb(83, 46, 21);
+        transition: width 0.3s ease;
+      }
+    }
+
+    &.active a::after {
+      width: 100%;
+    }
+  }
+
+  .item-kart {
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(83, 46, 21);
+    &:hover {
+      transform: scale(1.1);
+      transition: all 0.3s;
+    }
+  }
+}

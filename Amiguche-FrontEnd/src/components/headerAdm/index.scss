@@ -1,0 +1,89 @@
+.headerAdm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  min-height: 10vh;
+  background-color: #553314e0;
+  padding-left: 30px;
+
+  h2 {
+    color: #f9f9f9;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+    gap: 30px;
+
+    .link {
+      text-decoration: none;
+      border-radius: 20px;
+      height: 50%;
+
+      .btnArea {
+        background-color: #ffffff00;
+        color: #f9f9f9;
+        border: 2px solid #f9f9f9;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 600;
+        height: 100%;
+      }
+
+      .btnArea:hover {
+        background-color: #ffb854;
+        color: #452508;
+        border: 2px solid #452508;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+      }
+
+      .btnAtivo{
+        background-color: #ffb854;
+        color: #452508;
+        border: 2px solid #452508;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 12px;
+        font-weight: 600;
+        height: 100%;
+      }
+
+      .btnAtivo:hover{
+        cursor: pointer;
+      }
+    }
+  }
+
+  .admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 20%;
+
+    .icone {
+      width: 28px;
+      height: auto;
+      color: #f9f9f9;
+    }
+    h2{
+        font-size: 18px;
+        font-family: "poppins", sans-serif;
+        font-weight: 600;
+    }
+  }
+}

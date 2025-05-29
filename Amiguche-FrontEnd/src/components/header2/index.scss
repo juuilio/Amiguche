@@ -1,0 +1,16 @@
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  width: 90%;
+
+  .nav-item {
+    font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    text-decoration: none;
+    color: #452508;
+  }
+}
